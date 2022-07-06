@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.0 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2022.07.05 a las 06:43:13 PM COT 
+
+  -->
+      
+    <bindings xmlns:tns="https://api.placetopay.com/soap/placetopay" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="com.example.consumingwebservice.placetopay"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:tokenizeCard">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.TokenizeCard"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Authentication">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.Authentication"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:CardInfo">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.CardInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Person">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.Person"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:tokenizeCardResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.TokenizeCardResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:TokenInfo">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.TokenInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:invalidateToken">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.InvalidateToken"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:invalidateTokenResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.InvalidateTokenResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:voidCardTransaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.VoidCardTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:voidCardTransactionResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.VoidCardTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Transaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.Transaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:settleCardTransaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.SettleCardTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:settleCardTransactionResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.SettleCardTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:reverseCardTransaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.ReverseCardTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:reverseCardTransactionResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.ReverseCardTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateTransactionInformation">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.UpdateTransactionInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:UpdateInfo">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.UpdateInfo"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateTransactionInformationResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.UpdateTransactionInformationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateTransactionInformationBySessionID">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.UpdateTransactionInformationBySessionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:updateTransactionInformationBySessionIDResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.UpdateTransactionInformationBySessionIDResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTransactionInformation">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.GetTransactionInformation"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTransactionInformationResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.GetTransactionInformationResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTransactionInformationBySessionID">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.GetTransactionInformationBySessionID"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:getTransactionInformationBySessionIDResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.GetTransactionInformationBySessionIDResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:queryTransaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.QueryTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:QueryRequest">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.QueryRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:queryTransactionResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.QueryTransactionResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfTransaction">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.ArrayOfTransaction"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:cancelRecurringBillingByRefence">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.CancelRecurringBillingByRefence"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:cancelRecurringBillingByRefenceResponse">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.CancelRecurringBillingByRefenceResponse"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:Attribute">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.Attribute"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="~tns:ArrayOfAttribute">
+                  
+            <class ref="com.example.consumingwebservice.placetopay.ArrayOfAttribute"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
